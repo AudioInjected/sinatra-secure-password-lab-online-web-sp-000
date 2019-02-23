@@ -37,6 +37,7 @@ class ApplicationController < Sinatra::Base
 
   post "/login" do
     binding.pry
+    
   end
 
   get "/failure" do
