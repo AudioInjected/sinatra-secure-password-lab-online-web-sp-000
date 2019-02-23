@@ -21,7 +21,7 @@ class ApplicationController < Sinatra::Base
     if params[:username]
       #code 
     else 
-      #code 
+      erb :failure 
     end 
   end
 
