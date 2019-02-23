@@ -1,5 +1,5 @@
 class ChangeColumnNameInUsers < ActiveRecord::Migration
   def change
-    rename(:users, :password, :password_digest)
+    rename_column(:users, :password, :password_digest)
   end
 end
