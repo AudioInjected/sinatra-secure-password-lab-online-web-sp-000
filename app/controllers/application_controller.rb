@@ -21,7 +21,7 @@ class ApplicationController < Sinatra::Base
     if !params[:username].empty?
       #code 
     else 
-      erb :failure 
+      redirect "/failure"
     end 
   end
 
