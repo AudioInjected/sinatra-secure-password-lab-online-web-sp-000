@@ -21,7 +21,7 @@ class ApplicationController < Sinatra::Base
     if params[:username].empty? || params[:password].empty?
       redirect "/failure"
     else 
-      #code
+      redirect "/login"
     end 
   end
 
