@@ -18,7 +18,11 @@ class ApplicationController < Sinatra::Base
 
   post "/signup" do
     binding.pry
-
+    if params[:username]
+      #code 
+    else 
+      #code 
+    end 
   end
 
   get '/account' do
